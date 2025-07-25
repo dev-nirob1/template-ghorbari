@@ -42,7 +42,8 @@ You can customize colors, layouts, and responsiveness by editing this single sty
 
 ## 📷 Screenshots
 
-> Add your template screenshots here (recommended size: 1280x720)
+### Home Page
+![Home Page](public/images/home-page.png)
 
 ---
 
