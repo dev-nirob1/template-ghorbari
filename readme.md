@@ -42,7 +42,7 @@ You can customize colors, layouts, and responsiveness by editing this single sty
 
 ## 📷 Screenshots
 
-### Home Page
+### Hero Section Page
 ![Home Page](public/images/hero-section.png)
 
 ---
