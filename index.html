@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ghorbari</title>
+    <!-- STYLES  -->
+    <link rel="stylesheet" href="./vendor/grid.css" />
+    <link rel="stylesheet" href="./public/styles/style.css" />
+    <!-- FONT-AWESOME CDN  -->
+       <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+  </head>
+
+  <body>
+    <!-- ======== Navbar section ======== -->
+    <header class="navbar">
+      <nav class="flex justify-between align-center gap-1 container">
+        <!-- Mobile Menu Toggle Button -->
+        <button class="btn hamburger">
+          <i class="fas fa-bars fa-2xl"></i>
+        </button>
+        <!-- Logo -->
+        <a href="/" class="logo">
+          <div class="logo-icon">
+            <i class="fa-solid fa-map-location-dot"></i>
+          </div>
+          <span class="logo-text">Ghor<span>Bari</span></span>
+        </a>
+        <!-- Navigation Links -->
+        <ul class="nav-links">
+          <li><a href="#">Home</a></li>
+          <li><a href="#featured">Featured</a></li>
+          <li><a href="#cities">Explore Cities</a></li>
+          <li><a href="#properties">Properties</a></li>
+          <li><a href="#testimonials">Testimonials</a></li>
+          <li class="btn-mobile">
+            <button class="btn bg-alternative">List Your Property</button>
+          </li>
+        </ul>
+        <!-- Button to start property listing process -->
+        <button class="btn btn-desktop bg-secondary">List Your Property</button>
+      </nav>
+    </header>
+
+    <!-- ======== Hero section ======== -->
+    <section class="hero">
+      <div class="overlaping">
+        <div class="content">
+          <h5 class="sub-title text-alternative">
+            <i class="fa-solid fa-home"></i> Your Perfect Home
+          </h5>
+          <h1 class="hero-title">Your Dream Home Awaits</h1>
+          <p>
+            Browse top properties in prime locations with guidance from verified
+            agents. Find a place that truly fits your lifestyle.
+          </p>
+          <div class="flex justify-center gap-1">
+            <button class="btn bg-alternative">Browse Properties</button
+            ><button class="btn bg-secondary">Learn More</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======== Featured Project section ======== -->
+    <section id="featured" class="featured bg-white">
+      <div class="container large-2 align-center gap-2">
+        <!-- ======== Porject information section ======== -->
+        <div>
+          <h3 class="title mb-1">Luxury Duplex in Dhanmondi</h3>
+          <p>
+            Discover this modern duplex in Dhanmondi, designed for elegant
+            living with comfort, space, and privacy in mind.
+          </p>
+          <ul>
+            <li>
+              <h5 class="sub-title">Lower Floor</h5>
+              <p>1 Bed, 2 Baths, Living, Dining, Kitchen &amp; Open Terrace</p>
+            </li>
+            <li>
+              <h5 class="sub-title">Upper Floor</h5>
+              <p>3 Beds, 3 Baths, Family Lounge &amp; 2 Balconies</p>
+            </li>
+            <li>
+              <h5 class="sub-title">Highlights</h5>
+              <p>4 Beds, 5 Baths, Private Parking &amp; 24/7 Security</p>
+            </li>
+          </ul>
+        </div>
+        <!-- ======== Porject images section ======== -->
+        <div class="image-container flex gap-1">
+          <div class="flex flex-col gap-1">
+            <img
+              src="https://cdn.pixabay.com/photo/2023/12/11/06/21/kitchen-8442907_640.jpg"
+              alt="Kitchen"
+            /><img
+              src="https://cdn.pixabay.com/photo/2023/12/30/07/31/living-room-8477525_1280.jpg"
+              alt="Living room"
+            />
+          </div>
+          <div>
+            <img
+              src="https://cdn.pixabay.com/photo/2016/11/22/23/38/apartment-1851201_1280.jpg"
+              alt="Front view"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======== Explore cities section ======== -->
+    <section id="cities" class="explore-cities bg-light">
+      <div class="container">
+        <h3 class="title text-center mb-2">
+          Find Properties Across Top Cities
+        </h3>
+        <div class="medium-2 large-3 gap-2">
+          <!-- ======== Explore cities card ======== -->
+          <div class="city-card">
+            <img
+              src="https://images.unsplash.com/photo-1630987871777-f7b2d62894d0?q=80&amp;w=870&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+              alt="Dhaka"
+            />
+            <div class="city-name">Dhaka</div>
+          </div>
+          <div class="city-card">
+            <img
+              src="https://images.unsplash.com/photo-1670550689583-1f71472a6405?q=80&amp;w=774&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+              alt="Chittagong"
+            />
+            <div class="city-name">Chittagong</div>
+          </div>
+          <div class="city-card">
+            <img
+              src="https://images.unsplash.com/photo-1690617629187-2fe116d5089f?q=80&amp;w=774&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+              alt="Sylhet"
+            />
+            <div class="city-name">Sylhet</div>
+          </div>
+          <div class="city-card">
+            <img
+              src="https://images.unsplash.com/photo-1666554363523-69b5ce8b54d0?q=80&amp;w=1032&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+              alt="Rajshahi"
+            />
+            <div class="city-name">Rajshahi</div>
+          </div>
+          <div class="city-card">
+            <img
+              src="https://images.pexels.com/photos/2382896/pexels-photo-2382896.jpeg?_gl=1*b13762*_ga*OTAzOTgwMTguMTczNzAwNTI1OA..*_ga_8JE65Q40S6*czE3NTI1OTEyNjUkbzIzJGcxJHQxNzUyNTkxMzQyJGo1OCRsMCRoMA.."
+              alt="Khulna"
+            />
+            <div class="city-name">Khulna</div>
+          </div>
+          <div class="city-card">
+            <img
+              src="https://images.unsplash.com/photo-1561191223-2b9c2ee42b23?q=80&amp;w=774&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+              alt="Barisal"
+            />
+            <div class="city-name">Barisal</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======== Statistics section ======== -->
+    <section class="bg-white statistics">
+      <div class="container">
+        <ul class="small-2 larger-3 justify-center align-center gap-2">
+          <!-- Properties Listed -->
+          <li>
+            <i class="fa-solid fa-building fa-2x"></i>
+            <div>
+              <h3 class="title">850+</h3>
+              <p>Properties Listed</p>
+            </div>
+          </li>
+          <!-- Happy Clients -->
+          <li>
+            <i class="fa-solid fa-user-check fa-2x"></i>
+            <div>
+              <h3 class="title">600+</h3>
+              <p>Happy Clients</p>
+            </div>
+          </li>
+          <!-- Years of Experience -->
+          <li>
+            <i class="fa-solid fa-calendar-check fa-2x"></i>
+            <div>
+              <h3 class="title">12+</h3>
+              <p>Years of Excellence</p>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ======== Featured Properties section ======== -->
+    <section id="properties" class="featured-properties bg-light">
+      <div class="container">
+        <h3 class="title mb-2 text-center">Featured Properties</h3>
+        <div class="medium-2 large-3 gap-2">
+          <!-- ===== individual property card =======  -->
+          <div class="properties-card">
+            <div class="relative title-image">
+              <img
+                src="https://cdn.pixabay.com/photo/2021/09/13/06/26/apartment-6620407_1280.jpg"
+                alt="image"
+                class="image-responsive"
+              />
+            </div>
+            <div class="card-body">
+              <p><i class="fa-solid fa-location-dot"></i> Dhanmondi, Dhaka</p>
+              <h5 class="sub-title">Luxury Villa in Dhanmondi</h5>
+              <ul>
+                <li><i class="fa-solid fa-bed"></i> 4 bed</li>
+                <li><i class="fa-solid fa-bath"></i> 3 bath</li>
+                <li><i class="fa-solid fa-maximize"></i> sqft</li>
+              </ul>
+              <button class="btn">View Details</button>
+            </div>
+          </div>
+          <div class="properties-card">
+            <div class="relative title-image">
+              <img
+                src="https://cdn.pixabay.com/photo/2023/12/30/07/31/living-room-8477525_1280.jpg"
+                alt="image"
+                class="image-responsive"
+              />
+            </div>
+            <div class="card-body">
+              <p><i class="fa-solid fa-location-dot"></i> Banani, Dhaka</p>
+              <h5 class="sub-title">Modern Apartment in Banani</h5>
+              <ul>
+                <li><i class="fa-solid fa-bed"></i> 3 bed</li>
+                <li><i class="fa-solid fa-bath"></i> 2 bath</li>
+                <li><i class="fa-solid fa-maximize"></i> sqft</li>
+              </ul>
+              <button class="btn">View Details</button>
+            </div>
+          </div>
+          <div class="properties-card">
+            <div class="relative title-image">
+              <img
+                src="https://cdn.pixabay.com/photo/2023/12/11/06/21/kitchen-8442907_640.jpg"
+                alt="image"
+                class="image-responsive"
+              />
+            </div>
+            <div class="card-body">
+              <p><i class="fa-solid fa-location-dot"></i> Uttara, Dhaka</p>
+              <h5 class="sub-title">Family House in Uttara</h5>
+              <ul>
+                <li><i class="fa-solid fa-bed"></i> 4 bed</li>
+                <li><i class="fa-solid fa-bath"></i> 3 bath</li>
+                <li><i class="fa-solid fa-maximize"></i> sqft</li>
+              </ul>
+              <button class="btn">View Details</button>
+            </div>
+          </div>
+          <div class="properties-card">
+            <div class="relative title-image">
+              <img
+                src="https://images.pexels.com/photos/18567185/pexels-photo-18567185.jpeg?_gl=1*9kp4bv*_ga*OTAzOTgwMTguMTczNzAwNTI1OA..*_ga_8JE65Q40S6*czE3NTI1ODYxNDUkbzIyJGcxJHQxNzUyNTg2MjAxJGo0JGwwJGgw"
+                alt="image"
+                class="image-responsive"
+              />
+            </div>
+            <div class="card-body">
+              <p><i class="fa-solid fa-location-dot"></i> Gulshan, Dhaka</p>
+              <h5 class="sub-title">Elegant Duplex in Gulshan</h5>
+              <ul>
+                <li><i class="fa-solid fa-bed"></i> 5 bed</li>
+                <li><i class="fa-solid fa-bath"></i> 4 bath</li>
+                <li><i class="fa-solid fa-maximize"></i> sqft</li>
+              </ul>
+              <button class="btn">View Details</button>
+            </div>
+          </div>
+          <div class="properties-card">
+            <div class="relative title-image">
+              <img
+                src="https://cdn.pixabay.com/photo/2016/11/22/23/38/apartment-1851201_1280.jpg"
+                alt="image"
+                class="image-responsive"
+              />
+            </div>
+            <div class="card-body">
+              <p><i class="fa-solid fa-location-dot"></i> Mirpur, Dhaka</p>
+              <h5 class="sub-title">Cozy Flat in Mirpur</h5>
+              <ul>
+                <li><i class="fa-solid fa-bed"></i> 2 bed</li>
+                <li><i class="fa-solid fa-bath"></i> 2 bath</li>
+                <li><i class="fa-solid fa-maximize"></i> sqft</li>
+              </ul>
+              <button class="btn">View Details</button>
+            </div>
+          </div>
+          <div class="properties-card">
+            <div class="relative title-image">
+              <img
+                src="https://cdn.pixabay.com/photo/2024/09/17/11/19/real-estate-9053405_960_720.jpg"
+                alt="image"
+                class="image-responsive"
+              />
+            </div>
+            <div class="card-body">
+              <p><i class="fa-solid fa-location-dot"></i> Baridhara, Dhaka</p>
+              <h5 class="sub-title">Spacious House in Baridhara</h5>
+              <ul>
+                <li><i class="fa-solid fa-bed"></i> 4 bed</li>
+                <li><i class="fa-solid fa-bath"></i> 3 bath</li>
+                <li><i class="fa-solid fa-maximize"></i> sqft</li>
+              </ul>
+              <button class="btn">View Details</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======== News-letter section ======== -->
+    <section class="news-letter">
+      <div class="container content">
+        <h3 class="title mb-1">NewsLetter Subscribe</h3>
+        <div class="subscribe-form">
+          <input placeholder="Enter Your Email" /><button class="btn">
+            Subscribe
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======== testimonials section ======== -->
+    <section id="testimonials" class="testimonials bg-light">
+      <div class="container">
+        <div class="mb-2">
+          <h3 class="title text-center">What Our Clients Say</h3>
+        </div>
+        <div class="medium-2 gap-2">
+          <!-- individual testimonials card  -->
+          <div class="testimonial-card">
+            <i class="bg-graphic fa-solid fa-quote-right fa-10x"></i>
+            <div class="flex align-center gap-1">
+              <img
+                src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2"
+                alt="School Principal"
+                class="height-full width-full"
+              />
+              <div>
+                <h5 class="sub-title">Emily Johnson</h5>
+                <span>School Principal</span>
+              </div>
+            </div>
+            <div class="flex">
+              <p>
+                <i class="fa-solid fa-quote-left fa-2x"></i> Zems helped us
+                digitize student records and automate class schedules. It’s now
+                easier to focus on what matters most — teaching.
+              </p>
+            </div>
+          </div>
+          <div class="testimonial-card">
+            <i class="bg-graphic fa-solid fa-quote-right fa-10x"></i>
+            <div class="flex align-center gap-1">
+              <img
+                src="https://images.pexels.com/photos/5327585/pexels-photo-5327585.jpeg"
+                alt="Medical Director"
+                class="height-full width-full"
+              />
+              <div>
+                <h5 class="sub-title">Dr. Michael Chen</h5>
+                <span>Medical Director</span>
+              </div>
+            </div>
+            <div class="flex">
+              <p>
+                <i class="fa-solid fa-quote-left fa-2x"></i> Managing patient
+                appointments and medical records has never been this smooth.
+                Zems truly transformed our clinic operations.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======== Footer section ======== -->
+    <footer class="footer">
+      <div class="container medium-2 large-4 gap-2 py-2">
+        <!-- Footer logo and social media links -->
+        <div>
+          <a href="#" class="logo">
+            <div class="logo-icon">
+              <i class="fa-solid fa-map-location-dot"></i>
+            </div>
+            <span class="logo-text">Ghor<span>Bari</span></span>
+          </a>
+          <p>Find your next home with trusted agents and verified listings.</p>
+          <div class="social-links">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-pinterest-p"></i></a>
+          </div>
+        </div>
+        <!-- Quick navigation links -->
+        <div>
+          <h5 class="title">Quick Links</h5>
+          <ul class="footer-links">
+            <li><a href="/">Home</a></li>
+            <li><a href="/properties">All Properties</a></li>
+            <li><a href="/agents">Agents</a></li>
+            <li><a href="/cities">Explore Cities</a></li>
+            <li><a href="/blog">Blog</a></li>
+          </ul>
+        </div>
+        <!-- Buying/Selling Information -->
+        <div>
+          <h5 class="title">Helpful Info</h5>
+          <ul class="footer-links">
+            <li><a href="/how-it-works">How It Works</a></li>
+            <li><a href="/faq">FAQ</a></li>
+            <li><a href="/terms">Terms of Service</a></li>
+            <li><a href="/privacy">Privacy Policy</a></li>
+            <li><a href="/contact">Contact Us</a></li>
+          </ul>
+        </div>
+        <!-- Newsletter subscription form -->
+        <div>
+          <h5 class="title">Stay Updated</h5>
+          <p>Subscribe to get the latest property listings and market tips.</p>
+          <form class="subscribe-form">
+            <input type="email" placeholder="Your email address" required />
+            <button class="btn" type="submit">
+              <i class="fas fa-paper-plane"></i>
+            </button>
+          </form>
+        </div>
+      </div>
+      <!-- Footer bottom copyright -->
+      <div class="footer-bottom">
+        <div class="container flex">
+          <p>© 2025 GhorBari. All rights reserved.</p>
+          <a href="#">Terms &amp; Conditions</a>
+        </div>
+      </div>
+    </footer>
+    <script src="./public/js/index.js"></script>
+  </body>
+</html>
