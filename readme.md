@@ -20,36 +20,12 @@ A modern, responsive, and well-structured Real Estate HTML template designed for
 ```
 
 ---
+## 🎨 Stylesheet Overview
 
-## 🎨 CSS Structure
+All styling for the template is contained within the `styles.css` file located in the `public/styles/` folder.  
+This file includes styles for the entire template — from the navbar and hero section to featured properties, testimonials, footer, and responsive breakpoints.
 
-The CSS file (`styles.css`) is well-organized with clear comments and sections for easy customization and scalability:
-
-### Table of Contents:
-1. GOOGLE FONTS  
-2. RESET STYLES  
-3. ROOT VARIABLES  
-4. UTILITY CLASSES  
-   - Colors  
-   - Flex Utilities  
-   - Button Styles  
-5. NAVBAR  
-6. HERO SECTION  
-7. FEATURED PROJECT SECTION  
-8. EXPLORE CITIES SECTION  
-9. STATISTICS SECTION  
-10. FEATURED PROPERTIES SECTION  
-11. NEWSLETTER SECTION  
-12. TESTIMONIALS SECTION  
-13. FOOTER  
-14. RESPONSIVE BREAKPOINTS  
-   - Small Devices (≥576px)  
-   - Medium Devices (≥768px)  
-   - Large Devices (≥992px)  
-   - Larger Devices (≥1200px)  
-   - Largest Devices (≥1400px)  
-
----
+You can customize colors, layouts, and responsiveness by editing this single stylesheet.
 
 ## 🚀 Features
 
@@ -81,8 +57,6 @@ The CSS file (`styles.css`) is well-organized with clear comments and sections f
 
 ## 📚 Credits
 
-## 📚 Credits
-
 - **Images**  
   - Kitchen, Living Room, Front View, Apartment, etc.  
     Sources:  
@@ -106,7 +80,7 @@ Make sure to verify and comply with each image platform’s license terms. All i
 
 ## 📄 License
 
-This template is licensed for use under [TemplateMonster's licensing agreement](https://www.templatemonster.com/license.php).
+This template is licensed for use under ---.
 
 ---
 
