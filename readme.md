@@ -52,14 +52,13 @@ You can customize colors, layouts, and responsiveness by editing this single sty
 1. **Clone or Download** the project files.
 2. Open `index.html` in your browser or a code editor.
 3. Customize the content, images, and styles as needed.
-4. Upload to your web hosting or marketplace (e.g., TemplateMonster).
+4. Upload to your web hosting.
 
 ---
 
 ## 📚 Credits
 
 - **Images**  
-  - Kitchen, Living Room, Front View, Apartment, etc.  
     Sources:  
     - [Pixabay](https://pixabay.com)  
     - [Unsplash](https://unsplash.com)  
@@ -68,9 +67,6 @@ You can customize colors, layouts, and responsiveness by editing this single sty
 - **Icons & Fonts**  
   - Font Awesome (CDN) — [https://fontawesome.com/](https://fontawesome.com/)  
   - Google Fonts (used in CSS)
-
-- **Grid System**  
-  - Custom grid library included in `vendor/grid.css`
 
 ---
 
@@ -88,5 +84,5 @@ This template is licensed for use under ---.
 ## 🙌 Author
 
 **MD AL HASAN NIROB**  
-Front-End Developer | HTML, CSS, JavaScript, React.js  
-🇧🇩 Bangladesh  
+Front-End Developer | HTML, CSS, JavaScript, Vue.js React.js  
+Bogura, Bangladesh  
